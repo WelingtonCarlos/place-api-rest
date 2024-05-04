@@ -9,7 +9,6 @@ API Rest para gestão de lugares. [Este desafio](https://github.com/RocketBus/qu
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Webflux](https://docs.spring.io/spring-framework/reference/web/webflux.html)
 - [Spring Data + R2DBC](https://docs.spring.io/spring-framework/reference/data-access/r2dbc.html)
-- [SpringDoc OpenAPI 3](https://docs.spring.io/spring-integration/reference/webflux.html)
 - [Slugify](https://github.com/slugify/slugify)
 
 ## Práticas adotadas
