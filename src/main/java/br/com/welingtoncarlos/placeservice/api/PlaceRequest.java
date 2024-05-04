@@ -1,13 +1,9 @@
 package br.com.welingtoncarlos.placeservice.api;
 
-import java.time.LocalDateTime;
+import jakarta.validation.constraints.NotBlank;
 
 public record PlaceRequest(
-        String name,
-        String slug,
-        String state,
-        String city,
-        LocalDateTime createdAt,
-        LocalDateTime updatedAt) {
-
+                @NotBlank String name,
+                @NotBlank String state,
+                @NotBlank String city) {
 }
